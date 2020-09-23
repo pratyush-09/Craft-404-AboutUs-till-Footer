@@ -1,0 +1,46 @@
+body{
+    background-color: #012656;
+}
+
+.cont1{
+    text-align: center;
+    margin-top:5%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.AboutUsTitle{
+    font-size:80px;
+    font-family: 'Work Sans','Bold Roman';
+    text-align: center;
+    align-items: center;
+    height: 93px;
+    color:#FFFFFF;
+    opacity: 100%;
+    background-color: #305BC9;
+}
+
+p{
+    color: #FFFFFF;
+    font-size:20px;
+    font-family: 'Montserrat';
+}
+
+.belowAboutUs{
+    margin-top:8%;
+}
+
+.stc{
+    margin-top:20%;
+}
+.siam{
+    margin-top:30%;
+}
+
+.socialMediaIcons{
+    margin-top:20%;
+}
+
+.icons{
+    margin-left:8%;
+    margin-right:8%;
+}
