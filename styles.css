@@ -31,14 +31,21 @@ p{
 
 .stc{
     margin-top:20%;
-    overflow:hidden;
+    margin-bottom:20%;
+
 }
 .siam{
     margin-top:30%;
+    margin-bottom:20%;
+
 }
 
 .socialMediaIcons{
-    margin-top:20%;
+    /* margin-bottom:20%; */
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
 }
 
 .icons{
@@ -46,3 +53,8 @@ p{
     margin-right:7%;
     width:50px;
 }
+.logoIcons{
+    margin-top: 10%;
+    width: 70%;
+}
+
