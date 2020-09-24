@@ -10,9 +10,35 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
+    <div id="ContactUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="leaveMessage">Or leave a message</p>
+                </div>
+            </div>
+            <form action="mailto:" method="POST" enctype="text/plain">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="formLabel1">Your name</p>
+                        <input class="formInput" type="text" name="NAME" required>
+                        <p class="formLabel1">Your e-mail address</p>
+                        <input class="formInput" type="email" name="EMAIL" required>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="formLabel2">Write your message here</p>
+                        <input class="messageBox" name="message" type="textarea">
+                        <div class="send">
+                            <button class="sendbtn" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <div id="AboutUsSection">
         <div class="container cont1">
-            <span class="AboutUsTitle">About Us</span>
+            <span class="AboutUsTitle">About us</span>
             <div class="row belowAboutUs">
                 <div class="col-lg-5 col-sm-12">
                     <img src="Images/STC logo.png">

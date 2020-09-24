@@ -46,3 +46,78 @@ p{
     margin-right:7%;
     width:50px;
 }
+
+.leaveMessage{
+    font-size: 40px;
+    margin-top:20px;
+    margin-bottom:10%;
+}
+
+.formLabel1{
+    font-size:20px;
+    margin-bottom:0;
+    margin-top:5%;
+}
+
+.formLabel2{
+    font-size:20px;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.formInput{
+    width:70%;
+    height:40px;
+    border-width:3px;
+    border-color: #305BC9;
+    background-color: #012656;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-top:5px;
+}
+
+.messageBox{
+    width:90%;
+    height: 200px;
+    border-width: 3px;
+    border-color: #305BC9;
+    background-color: #012656;
+    color:#FFFFFF;
+    border-radius: 10px;
+    margin-top:5px;
+}
+
+.send{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sendbtn{
+    background-color: #305BC9;
+    border-radius: 5px;
+    width:150px;
+    height:50px;
+    border:none;
+    color:#FFFFFF;
+}
+
+@media screen and (max-width: 800px){
+    .leaveMessage{
+        align-items: center;
+        text-align: center;
+    }
+    .formInput{
+        align-items: center;
+        text-align: center;
+        width:100%;
+    }
+    .formLabel2{
+        margin-top:30px;
+    }
+    .messageBox{
+        width:100%;
+    }
+    .send{
+        margin-bottom:100px;
+    }
+}
