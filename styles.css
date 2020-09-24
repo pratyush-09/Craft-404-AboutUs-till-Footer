@@ -31,6 +31,7 @@ p{
 
 .stc{
     margin-top:20%;
+    overflow:hidden;
 }
 .siam{
     margin-top:30%;
@@ -41,6 +42,7 @@ p{
 }
 
 .icons{
-    margin-left:8%;
-    margin-right:8%;
+    margin-left:7%;
+    margin-right:7%;
+    width:50px;
 }
