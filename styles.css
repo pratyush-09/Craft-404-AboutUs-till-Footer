@@ -1,5 +1,6 @@
 body{
     background-color: #012656;
+    min-width:390px;
 }
 
 .cont1{
@@ -9,14 +10,26 @@ body{
     margin-bottom: 10%;
 }
 .AboutUsTitle{
-    font-size:80px;
+    font-size:500%;
     font-family: 'Work Sans','Bold Roman';
     text-align: center;
     align-items: center;
+    z-index: 9999999999;
     height: 93px;
+    position: relative;
     color:#FFFFFF;
     opacity: 100%;
+    /*background-color: #305BC9;*/
+}
+.bluebox123{
+    position: absolute;
+    bottom:6px;
     background-color: #305BC9;
+    z-index: -99999 !important;
+    width: 100%;
+    height: 50px;
+    left:0;
+    right:0;
 }
 
 p{
@@ -32,10 +45,15 @@ p{
 .stc{
     margin-top:20%;
     margin-bottom:20%;
-
 }
+
+.x{
+    font-family: 'Work Sans','Light Roman';
+    margin-top:4%;
+}
+
 .siam{
-    margin-top:30%;
+    margin-top:28%;
     margin-bottom:20%;
 
 }
@@ -53,42 +71,48 @@ p{
     margin-right:7%;
     width:50px;
 }
-<<<<<<< HEAD
 
 .leaveMessage{
-    font-size: 40px;
+    font-size: 200%;
     margin-top:20px;
     margin-bottom:10%;
+    font-family: 'Work Sans','Bold Roman';
 }
 
 .formLabel1{
     font-size:20px;
     margin-bottom:0;
     margin-top:5%;
+    font-family: 'Montserrat','SemiBold';
 }
 
 .formLabel2{
     font-size:20px;
     margin-bottom:0;
     margin-top:0;
+    font-family: 'Montserrat','SemiBold';
 }
 
 .formInput{
     width:70%;
     height:40px;
-    border-width:3px;
-    border-color: #305BC9;
+    border:3px solid #305bC9;
+    font-size:18px;
     background-color: #012656;
     color: #FFFFFF;
     border-radius: 8px;
     margin-top:5px;
+    outline: none;
+    outline-width: 0;
 }
 
 .messageBox{
     width:90%;
     height: 200px;
-    border-width: 3px;
-    border-color: #305BC9;
+    border:3px solid #305bC9;
+    font-size:18px;
+    outline: none;
+    outline-width: 0;
     background-color: #012656;
     color:#FFFFFF;
     border-radius: 10px;
@@ -98,6 +122,7 @@ p{
 .send{
     margin-top: 40px;
     text-align: center;
+    font-family: 'Work Sans','SemiBold Roman';
 }
 
 .sendbtn{
@@ -108,6 +133,47 @@ p{
     border:none;
     color:#FFFFFF;
 }
+
+#hide1{
+    display:inline;
+}
+
+#hideBTN1{
+    display:none;
+}
+
+#hide2{
+    display:inline;
+}
+
+#hideBTN2{
+    display:none;
+}
+
+.hidden{
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-bottom:50px;
+}
+
+.readBTN{
+    color:#FFFFFF;
+    font-size: 24px;
+    background-color: #012656;
+    outline:0;
+    outline-width: 0;
+    border:none;
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
+.arrow{
+    margin-left:10px;
+}
+
 
 @media screen and (max-width: 800px){
     .leaveMessage{
@@ -128,11 +194,19 @@ p{
     .send{
         margin-bottom:100px;
     }
+    #hideBTN1{
+        display:inline;
+    }
+    #hideBTN2{
+        display:inline;
+    }
+    .hide{
+        display:none !important;
+    }
 }
-=======
+
+
 .logoIcons{
     margin-top: 10%;
     width: 70%;
 }
-
->>>>>>> 4a6f23736951a254496425b9e648a99ccd7750fc

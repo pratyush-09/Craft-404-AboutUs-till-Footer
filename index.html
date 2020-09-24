@@ -8,6 +8,16 @@
     <!--CSS only (Bootstrap and External Stylesheet) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <!-- JS File-->
+    <script src="script.js" type="text/javascript"></script>
+
+    <!--FONT AWESOME CDN-->
+    <script src="https://kit.fontawesome.com/6b4aeaa9df.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts CDN-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div id="ContactUsSection">
@@ -27,7 +37,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="formLabel2">Write your message here</p>
-                        <input class="messageBox" name="message" type="textarea">
+                        <textarea class="messageBox" rows="5" cols="40" name="MESSAGE"></textarea>
                         <div class="send">
                             <button class="sendbtn" type="submit">Send</button>
                         </div>
@@ -38,23 +48,25 @@
     </div>
     <div id="AboutUsSection">
         <div class="container cont1">
-            <span class="AboutUsTitle">About us</span>
+            <span class="AboutUsTitle"><div class="bluebox123"></div>About us</span>
             <div class="row belowAboutUs">
                 <div class="col-lg-5 logodesc col-sm-12">
                     <img class="logoIcons" src="Images/STC logo.png">
-                    <p class="stc"><strong>STC VIT</strong> is ipsum dolor sit amet consectetur adipisicing elit. Placeat corrupti doloremque animi at quae sequi ducimus deleniti harum repellat, tempora dolorum mollitia fugiat iusto illo dicta reprehenderit necessitatibus dolores eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae adipisci magnam quo eius. Consequatur eveniet dolor dicta temporibus ullam tenetur necessitatibus facere aspernatur? Esse tempora minima labore molestiae itaque.</p>
+                    <div class="hidden"><button class="readBTN" onclick="read_more_less_1()" id="hideBTN1">Read More<i class="arrow fas fa-angle-down"></i></button></div>
+                    <span id="hide1" class="hide"><p class="stc"><strong>STC VIT</strong> is ipsum dolor sit amet consectetur adipisicing elit. Placeat corrupti doloremque animi at quae sequi ducimus deleniti harum repellat, tempora dolorum mollitia fugiat iusto illo dicta reprehenderit necessitatibus dolores eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae adipisci magnam quo eius. Consequatur eveniet dolor dicta temporibus ullam tenetur necessitatibus facere aspernatur? Esse tempora minima labore molestiae itaque.</p></span>
                     <div class="socialMediaIcons align-bottom">
                         <a href="#"><img class="icons" src="Images/001-facebook.svg"></a>
                         <a href="#"><img class="icons" src="Images/010-linkedin.svg"></a>
                         <a href="#"><img class="icons" src="Images/011-instagram.svg"></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-12">
-                    <img src="Images/x.svg">
+                <div class="col-lg-2 col-sm-12 x">
+                    <img src="Images/x.png">
                 </div>
                 <div class="col-lg-5 logodesc col-sm-12">
                     <img  class="logoIcons" src="Images/SIAM logo.png">
-                    <p class="siam"><strong>SIAM VIT</strong> is ipsum dolor sit amet consectetur adipisicing elit. Placeat corrupti doloremque animi at quae sequi ducimus deleniti harum repellat, tempora dolorum mollitia fugiat iusto illo dicta reprehenderit necessitatibus dolores eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam placeat exercitationem dolores illum tempora voluptate blanditiis animi recusandae, cupiditate fuga sunt, esse laborum adipisci debitis odit cumque laboriosam?<br> Vel!</p>
+                    <div class="hidden"><button class="readBTN" onclick="read_more_less_2()" id="hideBTN2">Read More<i class="arrow fas fa-angle-down"></i></button></div>
+                    <span id="hide2" class="hide"><p class="siam"><strong>SIAM VIT</strong> is ipsum dolor sit amet consectetur adipisicing elit. Placeat corrupti doloremque animi at quae sequi ducimus deleniti harum repellat, tempora dolorum mollitia fugiat iusto illo dicta reprehenderit necessitatibus dolores eligendi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam placeat exercitationem dolores illum tempora voluptate blanditiis animi recusandae, cupiditate fuga sunt, esse laborum adipisci debitis odit cumque laboriosam?Vel!</p></span>
                     <div class="socialMediaIcons align-bottom">
                         <a href="#"><img class="icons" src="Images/001-facebook.svg"></a>
                         <a href="#"><img class="icons" src="Images/010-linkedin.svg"></a>
