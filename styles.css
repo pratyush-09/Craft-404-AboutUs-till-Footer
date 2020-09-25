@@ -11,23 +11,24 @@ body{
 }
 .AboutUsTitle{
     font-size:500%;
-    font-family: 'Work Sans','Bold Roman';
+    font: normal normal bold 60px/93px Work Sans;
     text-align: center;
     align-items: center;
     z-index: 9999999999;
     height: 93px;
     position: relative;
+    letter-spacing: 0px;
     color:#FFFFFF;
     opacity: 100%;
     /*background-color: #305BC9;*/
 }
 .bluebox123{
     position: absolute;
-    bottom:6px;
+    bottom:5px;
     background-color: #305BC9;
     z-index: -99999 !important;
     width: 100%;
-    height: 50px;
+    height: 40px;
     left:0;
     right:0;
 }
@@ -48,14 +49,20 @@ p{
 }
 
 .x{
-    font-family: 'Work Sans','Light Roman';
-    margin-top:4%;
+    font-family: 'Work Sans';
+    margin-top:3%;
+}
+.imgX{
+    width:30px;
+}
+
+.siamImg{
+    padding-top:15px;
 }
 
 .siam{
-    margin-top:28%;
+    margin-top:26%;
     margin-bottom:20%;
-
 }
 
 .socialMediaIcons{
@@ -76,21 +83,22 @@ p{
     font-size: 200%;
     margin-top:20px;
     margin-bottom:10%;
-    font-family: 'Work Sans','Bold Roman';
+    font:normal normal bold 32px/57px Work Sans;
+    letter-spacing: 0px;
 }
 
 .formLabel1{
     font-size:20px;
     margin-bottom:0;
     margin-top:5%;
-    font-family: 'Montserrat','SemiBold';
+    font: normal normal 600 20px/29px Montserrat;
 }
 
 .formLabel2{
     font-size:20px;
     margin-bottom:0;
     margin-top:0;
-    font-family: 'Montserrat','SemiBold';
+    font: normal normal 600 20px/29px Montserrat;
 }
 
 .formInput{
@@ -207,6 +215,6 @@ button:focus{
 
 
 .logoIcons{
-    margin-top: 10%;
+    margin-top: 2%;
     width: 70%;
 }
